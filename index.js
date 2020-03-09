@@ -170,9 +170,6 @@ module.exports.contains = contains;
  * @param {Function} test: This function is invoked for each of the items in the collection,
  * taking the parameters element, index, and collection. 
  * 
- * @return There is nothing returned in this function, as it serves only to iterate 
- * over a collection and perform a function on each item in the collection.  
- * 
  */
 
 function each(collection, test) {
